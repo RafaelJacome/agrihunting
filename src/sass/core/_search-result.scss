@@ -1,0 +1,14 @@
+.search-result {
+    background-color: $content-background;
+    padding: 50px;
+
+    .page-header {
+        margin-bottom: 30px;
+        h1 {
+            font-size: 30px;
+            span {
+                color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.default-page {
+    padding: 50px 0;
+    background-color: $content-background;
+    h1 {
+        color: $primary-color;
+        font-size: 30px;
+        font-family: $font-primary;
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        i {
+            font-size: 60px;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+.default-single {
+    padding: 50px 0px;
+    background-color: $content-background;
+    .breadcrumbs {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        color: $primary-color;
+        font-size: 30px;
+        font-family: $font-primary;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        &.addCite {
+            cursor: pointer;
+        }
+        i {
+            font-size: 30px;
+            margin-left: 30px;
+            vertical-align: text-top;
+        }
+    }
+    .banner {
+        margin: 20px 0;
+    }
+
+    .content_info {
+        font-family: $font-primary;
+        font-size: 18px;
+        color: $gray-dark;
+        div {
+            margin-bottom: 20px;
+        }
+    }
+}

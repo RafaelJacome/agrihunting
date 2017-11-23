@@ -1,0 +1,46 @@
+.category-products {
+    background-color: $content-background;
+    padding: 50px 0px;
+    a {
+        outline: none;
+    }
+    .products {
+        li {
+            display: inline-flex;
+            width: 33%;
+            outline: none;
+            text-align: center;
+            a {
+                    color: $gray-dark;
+                    display: block;
+                    max-width: 200px;
+                    margin: 5px auto;
+                    &.ajax_add_to_cart {
+                        transition: all 0.3s;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        &:hover {
+                            background-color: $primary-color;
+                            color: #fff;
+                        }
+                    }
+                }
+        }
+    }
+
+    .woocommerce-products-header {
+        padding: 40px 0;
+        font-weight: 700;
+        color: $primary-color;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .woocommerce-result-count,
+    .woocommerce-ordering {
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,49 @@
+.woocommerce-MyAccount-navigation {
+    ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin: 0 15px 10px;
+            padding: 10px;
+            background: rgba($primary-color, 0.7);
+            transition: all 0.3s;
+            &:hover {
+                background: rgba($primary-color, 1);
+            }
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.woocommerce-MyAccount-content {
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.woocommerce-form-login {
+    input[type="submit"] {
+        display: block;
+        margin-bottom: 15px;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $primary-color;
+            color: #ffffff;
+        }
+    }
+}
+
+.woocommerce-Address-title {
+    h3{
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}

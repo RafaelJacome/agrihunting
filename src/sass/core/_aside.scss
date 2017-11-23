@@ -1,0 +1,38 @@
+aside {
+    padding: 70px 20px;
+    a {
+        color: $gray-dark;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 5px !important;
+    }
+    p {
+        color: $gray-dark;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .menu-main-menu-container {
+        margin-bottom: 50px;
+    }
+    .items_aside {
+        margin-bottom: 50px;
+    }
+    ul {
+        li {
+            display: block;
+            color: $gray-dark;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 5px !important;
+            &.current-menu-item {
+                a {
+                    color: $primary-color;
+                }
+            }
+            ul {
+                padding-left: 20px;
+            }
+        }
+    }
+
+}
